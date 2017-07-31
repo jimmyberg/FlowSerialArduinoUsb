@@ -1,0 +1,3 @@
+[submodule "FlowSerial"]
+	path = FlowSerial
+	url = https://github.com/overlord1123/FlowSerial.git
