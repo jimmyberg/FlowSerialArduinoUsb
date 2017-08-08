@@ -6,7 +6,7 @@ MINOR=0
 LIB_PATH_INSTALL=/usr/local/lib/
 INC_PATH_INSTALL=/usr/local/include/
 
-LIBNAME=libflowserialusb
+LIBNAME=libflowserial-ardiuno-usb
 
 function install-dependencies {
 	git submodule update --init --recursive
