@@ -2,12 +2,23 @@
 
 FlowSerial implementation for an USB connection with an Arduino-like board.
 
+# Install
+Insatallation can be preformed with the ./library-control.sh script.
+use this to install the library
+```
+./library-control.sh install
+```
+use this to remove the library
+```
+./library-control.sh remove
+```
+
+# Example main.cpp
 Compile with
 ```
 g++ -Wall -std=c++11 main.cpp -lflowserial -lflowserial-ardiuno-usb -pthread -o prog
 ```
-
-# Example main.cpp
+The code:
 ``` C++
 #include <iostream>   //For printing to console
 using namespace std;
